@@ -26,8 +26,8 @@ class InfoScreen extends StatelessWidget {
           padding: const EdgeInsets.all(16),
           gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
             crossAxisCount: 3,
-            crossAxisSpacing: 16,
-            mainAxisSpacing: 16,
+            crossAxisSpacing: 8,
+            mainAxisSpacing: 8,
             childAspectRatio: 1.0,
           ),
           itemCount: gridItems.length,
